@@ -32,9 +32,10 @@
       border-bottom: none;
       text-align: center;
       font-size: 0.95em;
+      white-space: nowrap;
     }
     nav a {
-      margin: 0 18px;
+      margin: 0 12px;
       text-decoration: none;
       color: #0067a5;
       font-weight: bold;
@@ -43,6 +44,16 @@
       max-width: 70ch;
       margin: 2em auto;
       padding: 0 1em;
+    }
+    @media (max-width: 500px) {
+      nav {
+        font-size: 0.83em;
+        max-width: 99vw;
+        padding: 0.2em 0 0.2em 0;
+      }
+      nav a {
+        margin: 0 6px;
+      }
     }
   </style>
 </head>
